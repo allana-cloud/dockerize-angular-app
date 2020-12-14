@@ -155,8 +155,9 @@ we do the following:
     docker-compose exec web ng generate component xyz
 ```
     
-    The identifier "web" is from our docker-compose file, so if you have change to something else use that in reference for your doceker-compose exec.
-Component xyz will be generate by angular, however you still need to change the owneship.
+The identifier "web" is from our docker-compose file, so if you have change to something else 
+use that in reference for your doceker-compose exec. Component xyz will be generate by 
+angular, however you still need to change the owneship.
 
 ```    
     sudo chown -R $USER:$(id -gn $USER) ./*
