@@ -30,7 +30,7 @@ docker build -t angular-image .
 docker run -dit --name [container-name] -v ${PWD}:/app [container-image-name]
 
 docker run -dit --name angular-container -v ${PWD}:/app angular-image
-``    
+```    
 
 
 4. Now that we have an angular container. Let us create your angular project by using docker exec command:
